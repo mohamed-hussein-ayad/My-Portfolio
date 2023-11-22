@@ -1,0 +1,12 @@
+.nav {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 0;
+  border-radius: 50px;
+  i {
+    color: white;
+    font-size: 20px;
+    &.active {
+      color: #f7e670;
+    }
+  }
+}
