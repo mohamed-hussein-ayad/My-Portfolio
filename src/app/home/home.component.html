@@ -1,58 +1,5 @@
 <div class="container-fluid">
-  <!-- navbar start -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img
-          src="/assets/images/logo.svg"
-          alt="logo"
-          width="100"
-          class="mt-4"
-        />
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarText"
-        aria-controls="navbarText"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      ></button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item me-4">
-            <a
-              class="nav-link"
-              href="https://www.facebook.com/mohamed.hussein.ayad.9"
-            >
-              <i class="fa-brands fa-facebook-f"></i>
-            </a>
-          </li>
-          <li class="nav-item me-4">
-            <a
-              class="nav-link"
-              href="https://www.instagram.com/mohamed.hussein.ayad/"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-          </li>
-          <li class="nav-item me-4">
-            <a
-              class="nav-link"
-              href="https://www.linkedin.com/in/mohamed-ayad-b84300268/"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-          </li>
-          <li class="nav-item me-4">
-            <a class="nav-link" href="https://github.com/mohamed-hussein-ayad"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- navbar end -->
+  <app-navbar></app-navbar>
   <div class="row">
     <div class="col-md-6 mt-5">
       <div class="contnet">
@@ -79,75 +26,7 @@
       />
     </div>
     <div class="col-md-1 mt-2">
-      <!-- sidebar start -->
-      <div
-        class="d-flex flex-column flex-shrink-0 ms-auto"
-        style="width: 4.5rem"
-      >
-        <ul class="nav nav-flush flex-column mb-auto text-center sidebar">
-          <li class="nav-item">
-            <a
-              href="#"
-              class="nav-link active py-3"
-              aria-current="page"
-              title="Home"
-              data-bs-placement="right"
-              data-bs-original-title="Home"
-            >
-              <i class="fa-solid fa-house active" pTooltip="Home"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              class="nav-link py-3"
-              title="About Us"
-              data-bs-toggle="tooltip"
-              data-bs-placement="right"
-              data-bs-original-title="About Us"
-            >
-              <i class="fa-solid fa-user" pTooltip="About Us"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              class="nav-link py-3"
-              title="Services"
-              data-bs-toggle="tooltip"
-              data-bs-placement="right"
-              data-bs-original-title="Services"
-            >
-              <i class="fa-solid fa-table-list" pTooltip="Services"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              class="nav-link py-3"
-              title="My work"
-              data-bs-toggle="tooltip"
-              data-bs-placement="right"
-              data-bs-original-title="My work"
-            >
-              <i class="fa-solid fa-briefcase" pTooltip="My work"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              class="nav-link py-3"
-              title="Contact"
-              data-bs-toggle="tooltip"
-              data-bs-placement="right"
-              data-bs-original-title="Contact"
-            >
-              <i class="fa-solid fa-envelope" pTooltip="Contact"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!-- sidebar end -->
+      <app-sidebar></app-sidebar>
     </div>
   </div>
 </div>

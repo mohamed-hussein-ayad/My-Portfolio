@@ -1,34 +1,4 @@
 .container-fluid {
-  .navbar {
-    .navbar-nav {
-      .nav-item {
-        i {
-          color: white;
-          font-size: 30px;
-        }
-        .fa-facebook-f {
-          &:hover {
-            color: blueviolet;
-          }
-        }
-        .fa-instagram {
-          &:hover {
-            color: #fbad50;
-          }
-        }
-        .fa-linkedin {
-          &:hover {
-            color: blueviolet;
-          }
-        }
-        .fa-github {
-          &:hover {
-            color: brown;
-          }
-        }
-      }
-    }
-  }
   .row {
     .contnet {
       padding-left: 100px;
@@ -46,18 +16,6 @@
           color: #f7e670;
           padding: 0 0 0 15px;
           font-size: 18px;
-        }
-      }
-    }
-    .nav {
-      background-color: rgba(255, 255, 255, 0.1);
-      padding: 10px 0;
-      border-radius: 50px;
-      i {
-        color: white;
-        font-size: 18px;
-        &.active {
-          color: #f7e670;
         }
       }
     }
