@@ -1,0 +1,30 @@
+.navbar {
+  .navbar-nav {
+    .nav-item {
+      i {
+        color: white;
+        font-size: 30px;
+      }
+      .fa-facebook-f {
+        &:hover {
+          color: blueviolet;
+        }
+      }
+      .fa-instagram {
+        &:hover {
+          color: #fbad50;
+        }
+      }
+      .fa-linkedin {
+        &:hover {
+          color: blueviolet;
+        }
+      }
+      .fa-github {
+        &:hover {
+          color: brown;
+        }
+      }
+    }
+  }
+}
